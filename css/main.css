@@ -1,0 +1,202 @@
+body {
+  background-color: #f0f2f5;
+}
+a {
+  text-decoration: none;
+}
+.bg-light {
+  background-color: #ffffff !important;
+}
+.navbar-brand {
+  font-size: 50px;
+}
+.navbar-brand .later {
+  color: #046eb9;
+  font-weight: bold;
+}
+.navbar-brand i {
+  color: #e9922f;
+  font-weight: 700;
+}
+.img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.img img{
+    max-width: 90%;
+    max-height: 90%;
+    width: auto;
+}
+.partner {
+    background-color: #fff;
+    border-radius: 11px;
+    box-shadow: 0 3px 10px #a17a69;
+    cursor: pointer;
+    
+}
+.job .box-job {
+  background: #fff;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.job .head {
+  display: flex;
+  justify-content: space-between;
+}
+.input-group {
+  width: 70% !important;
+}
+.job .box-job .left {
+  display: flex;
+}
+.job .box-job .left .sub-content {
+  display: flex;
+}
+.job .box-job .right .content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 13px;
+}
+.job .box-job .right .content .new {
+  background-color: #e9922f;
+  color: #fff;
+  padding-left: 2px;
+  padding-right: 2px;
+}
+.btn .btn-warning {
+  background-color: #e9922f;
+}
+.container-job {
+  display: flex;
+}
+.container-job .content-left {
+  background-color: #fff;
+  padding: 20px;
+  width: 70%;
+}
+.container-job .content-left .city {
+  font-weight: bold;
+}
+.container-job .content-left-bottom {
+  display: flex;
+  justify-content: space-between;
+}
+.container-job .content-left-bottom .title {
+  color: #9d9d9d;
+}
+.container-job .content-left-bottom .content {
+  font-weight: bold;
+}
+.container-job .content-right {
+  background-color: #fff;
+  padding: 10px;
+  width: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container-job .content-right .content i{
+    font-size: 30px;
+}
+.details{
+    display: flex;
+}
+.details .job-details{
+    background-color: #fff;
+    width: 70%;
+}
+.details .content-right{
+    background-color: #fff;
+    color: red;
+    padding: 10px;
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.details .content-right .content i{
+    font-size: 30px;
+}
+
+/* Start Connect Us */
+h1{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+    font-size: 50px;
+    letter-spacing: -3px;
+    color: #757575;
+}
+.contact-form{
+    max-width: 500px;
+    margin: 20px auto;
+}
+
+.contact-form input,
+.contact-form textarea{
+    margin-bottom: 5px;
+}
+
+.contact-form textarea{
+    height: 180px !important
+}
+.contact-form input:not([type='submit']) + i {
+    height: 0;
+    float: left;
+    position: relative;
+    top: -32px;
+    left: 10px;
+    color: #999;
+}
+.contact-form input{
+    padding-left: 33px;
+}
+.contact-form .asterisx{
+    height: 0;
+    font-size: 22px;
+    color: #b90d0d;
+    position: absolute;
+    right: 10px;
+    top: 6px;
+}
+
+.contact-form .send-icon{
+    display: block;
+    position: relative;
+    top: -32px;
+    left: 7px;
+    color: #fff;
+}
+.contact-form .custom-alert{
+    padding: 5px 10px;
+    display: none;
+
+} 
+.btn-success{
+    background-color: #046EB9;
+    border-color: #046EB9;
+}
+/* Start Service */
+.contener-service{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.contener-service .tital{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contener-service .tital i{
+  font-size: 25px;
+}
+.contener-service .content{
+  display: flex;
+  justify-content: center;
+
+}
