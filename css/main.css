@@ -200,3 +200,23 @@ h1{
   justify-content: center;
 
 }
+/* Start Login */
+.content{
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
+.container-form{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
+.btn-login{
+  border: none;
+  background-color: #046eb9;
+  color: #fff;
+  border-radius: 4px;
+}
